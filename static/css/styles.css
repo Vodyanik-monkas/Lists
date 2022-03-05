@@ -1,0 +1,70 @@
+body {
+    background-color: #44444f;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.dark-body {
+    background-color: #44444f;
+    color: #fff;
+}
+
+.dark-button {
+    background-color: #b7c2d7;
+}
+
+.dark-header {
+    background-color: #212529;
+    color: #fff;
+}
+
+.header-ico {
+    filter: invert(40%);
+    height: 32px;
+    width: 32px;
+}
+
+.header-ico:active {
+    filter: invert(30%);
+}
+
+.header-ico-container {
+    width: 100px;
+}
+
+.left-align {
+    float: inline-end;
+}
+
+table {
+    width: 100%;
+}
+
+.table-ico {
+    filter: opacity(40%);
+    height: 24px;
+    width: 24px;
+}
+
+table td {
+    height: 2.5em;
+    padding: 0.5em;
+    text-align: left;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(109, 138, 185, 0.3)
+}
